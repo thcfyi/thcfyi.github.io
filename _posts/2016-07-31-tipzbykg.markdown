@@ -2,7 +2,7 @@
 layout: newz 
 title: tipz 
 ---
-
+<h2>tipz</h2>
 <a href="https://www.reddit.com/r/cordcutters/wiki/rio2016/">Rio 2016 -- Summer Olympics Watcher's Guide'</a><br />
  <a href="http://www.theverge.com/2016/7/28/12311924/nfl-sunday-ticket-directv-streaming-apple-tv/">NFL streaming package available to more people</a><br />
 <a href="http://cordcuttersnews.com/time-warner-cable-jumps-free-tv-bandwagon/">Time Warner Cable Jumps on The Free TV Bandwagon</a><br />
