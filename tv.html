@@ -13,7 +13,10 @@
 </div>
 		<div class="span4 columns">
 			
-			{{ content }}
+	    {% for post in site.tv %}	
+	   				  			  <h3> <center><h2>tv</h2>
+	   				  {{ post.content }}</center> </h3><br />
+	   				  {% endfor %}
 			
 </div></div>
 	</div>
