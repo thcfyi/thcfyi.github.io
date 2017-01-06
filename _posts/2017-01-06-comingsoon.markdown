@@ -1,6 +1,6 @@
 ---
 layout: tv
-title: THC.fyi coming soon
+title: coming soon
 category: W5tv
 ytid: lMzsyqbXsB8
 ad: Harrys
