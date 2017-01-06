@@ -4,7 +4,7 @@ markdown: kramdown
 server_port: 3000
 pygments: false
 lsi: false
-permalink: /x/:title.html
+permalink: /ep/:title/
 #paginate: 10
 name: THC fyi  
 description: Marijuana Variety Show
