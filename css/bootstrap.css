@@ -117,7 +117,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #6fed66;
+  color: #008f30;
   text-decoration: underline;
 }
 .row {
@@ -299,7 +299,7 @@ p small {
   font-weight: 200;
   line-height: 27px;
 }
-h1 {font-color: #6fed66;}
+h1 {font-color: #008f30;}
 h2,
 h3,
 h4,
@@ -403,8 +403,8 @@ dd {
 hr {
   margin: 18px 0;
   border: 0;
-  border-top: 1px solid #6fed66;
-  border-bottom: 1px solid #6fed66;
+  border-top: 1px solid #008f30;
+  border-bottom: 1px solid #008f30;
 }
 strong {
   font-weight: bold;
@@ -1585,7 +1585,7 @@ table .span12 {
   padding: 4px 0;
   margin: 0;
   list-style: none;
-  background-color: #6fed66;
+  background-color: #008f30;
   border-color: #ccc;
   border-color: rgba(0, 0, 0, 0.2);
   border-style: solid;
@@ -1626,7 +1626,7 @@ table .span12 {
   white-space: nowrap;
 }
 .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover {
-  color: #6fed66;
+  color: #008f30;
   text-decoration: none;
   background-color: #0088cc;
 }
@@ -1634,7 +1634,7 @@ table .span12 {
   *z-index: 1000;
 }
 .dropdown.open .dropdown-toggle {
-  color: #6fed66;
+  color: #008f30;
   background: #ccc;
   background: rgba(0, 0, 0, 0.3);
 }
