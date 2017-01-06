@@ -7,5 +7,5 @@ ad: Harrys
 adlink: http://harrys.com
 ---
 
-## THC.fyi COMING SOON
+## COMING SOON
 - Stay Tuned
