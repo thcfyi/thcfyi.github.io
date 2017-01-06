@@ -1,5 +1,14 @@
-
-{% for post in site.posts %}	
-	<h3> <a href="post.url">{{ post.title }} </a></h3> 
+---
+layout: layout
+title: "THC.fyi Marijuana Variety Show - focusing on news, culture, how to's, strain & product reviews, edibles, dabs and more - 420"
+---
+		  		 
+<div class="content">		  
+	<div class="row">		
+		<div class="span4 columns"> </div>
+		
+		<div class="span4 columns">
+		{% for post in site.posts %}	
+	<h3> <a href="{{ post.url }}">{{ post.title }} </a></h3> 
 		<br /><hr width="70%" /><br />
-		{% endfor %}
+			{% endfor %}</div></div></div>
