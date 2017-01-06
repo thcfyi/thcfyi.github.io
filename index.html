@@ -5,13 +5,14 @@ title: "THC.fyi Marijuana Variety Show -- focusing on news, culture how to's, ed
 		  		 
 <div class="content">		  
 	<div class="row">		
-		<div class="span4 columns"> {% for post in site.posts %}	
-				<h3> <a href="http://youtube.com/watch?v={{ post.ytid }}">{{ post.title }} </a></h3><br />							  <br />
-				  {% endfor %}
+		<div class="span4 columns"> 
 		</div>
 		<div class="span4 columns">
 			
  <br /><hr width="70%" /><br />
+			{% for post in site.posts %}	
+				<h3> <a href="http://youtube.com/watch?v={{ post.ytid }}">{{ post.title }} </a></h3><br />							  <br />
+				  {% endfor %}
 			 
 		</div>		
 		
