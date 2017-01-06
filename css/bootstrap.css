@@ -106,7 +106,7 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: "Georgia", serif;
+  font-family: "Helvetica", san-serif;
   font-size: 13px;
   line-height: 18px;
   color: #333333;
@@ -117,7 +117,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #6dbac9;
+  color: #7eff75;
   text-decoration: underline;
 }
 .row {
@@ -285,7 +285,7 @@ a:hover {
 }
 p {
   margin: 0 0 9px;
-  font-family: "Georgia", serif;
+  font-family: "Helvetica", san-serif;
   font-size: 13px;
   line-height: 18px;
 }
