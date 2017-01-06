@@ -5,16 +5,13 @@ title: "THC.fyi Marijuana Variety Show -- focusing on news, culture how to's, ed
 		  		 
 <div class="content">		  
 	<div class="row">		
-		<div class="span4 columns"> 
-		</div>
+		<div class="span4 columns"> </div>
+		
 		<div class="span4 columns">
-			
- <br /><hr width="70%" /><br />
-			{% for post in site.posts %}	
-				<h3> <a href="http://youtube.com/watch?v={{ post.ytid }}">{{ post.title }} </a></h3><br />							  <br />
-				  {% endfor %}
-			 
-		</div>		
+		{% for post in site.posts %}	
+	<h3> <a href="http://youtube.com/watch?v={{ post.ytid }}">{{ post.title }} </a></h3> 
+		<br /><hr width="70%" /><br />
+		{% endfor %}</div>		
 		
 		<div class="span4 columns">
 			<img src="/Unknown-2.png" />
@@ -22,7 +19,6 @@ title: "THC.fyi Marijuana Variety Show -- focusing on news, culture how to's, ed
 		</div> 
 		<div class="span4 columns"> <br />
  <h4><center><b>THC.fyi Marijuana Variety Show -- focusing on news, culture how to's, edibles, dabs and more</b></center></h4>
-
 		</div>		
 	</div>
 </div>
