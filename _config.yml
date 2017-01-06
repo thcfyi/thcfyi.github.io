@@ -4,10 +4,10 @@ markdown: kramdown
 server_port: 3000
 pygments: false
 lsi: false
-permalink: /:year/:month/:day/:title.html
+permalink: /x/:title.html
 #paginate: 10
-name: PlexPortal  
-description: Plex Portal by KG
-url: http://kevingailey.com
-rss: http://kevingailey.com/feed.xml
-logo: http://kevingailey.com/img/W5-lights.png
+name: THC fyi  
+description: Marijuana Variety Show
+url: http://twitter.com/thc_fyi
+rss: http://thcfyi.github.io./feed.xml
+logo: http://thcfyi.github.io/img/Unknown-1.png
