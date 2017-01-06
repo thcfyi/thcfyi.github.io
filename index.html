@@ -3,18 +3,19 @@ layout: layout
 title: "THC.fyi Marijuana Variety Show -- focusing on news, culture how to's, edibles, dabs and more -- 420"
 ---
 		  		 
-<div class="content">	  
+<div class="content">
 	<div class="row">		
 		<div class="span4 columns">
-		 
+		 <h4><span><b>THC.fyi Marijuana Variety Show -- focusing on news, culture how to's, edibles, dabs and more</b></span></h4>  
+
 		</div>
-		<div class="span4 columns"><br />
-  		  <hr width="70%" /><br />
-		<h2><a href="/newsletter.html">Subscribe to the FYI Newsletter</a> </h2><hr width="70%" /><br />
-  		<h2><a href="http://twitter.com/thc_fyi">Follow THC.fyi on Twitter</a> </h2><hr width="70%" /><br />
-		<h2><a href="http://thcfyi.github.com/live"> THC.fyi Live</a> </h2>
-		   <hr width="70%" /><br />
-				 
+		<div class="span4 columns">
+			 <br />
+				  {% for post in site.posts %}	
+				<h3> <a href="http://youtube.com/watch?v={{ post.ytid }}">{{ post.title }} </a></h3><br />							  <br />
+				  {% endfor %}
+
+		  <br/><br/>	 
 		</div>		
 		
 		<div class="span4 columns">
@@ -22,14 +23,11 @@ title: "THC.fyi Marijuana Variety Show -- focusing on news, culture how to's, ed
 			<center><h2>THC.fyi</h2></center>
 		</div> 
 		<div class="span4 columns">
-		  		  
-				<span>THC.fyi Marijuana Variety Show -- focusing on news, culture how to's, edibles, dabs and more</span>  
-				  <br />
-				  {% for post in site.posts %}	
-				<h3> <a href="http://youtube.com/watch?v={{ post.ytid }}">{{ post.title }} </a></h3><br />							  <br />
-				  {% endfor %}
-
-		  <br/><br/>
+		 <br /><hr width="70%" /><br />
+		<h2><a href="/newsletter.html">Subscribe to the FYI Newsletter</a> </h2><hr width="70%" /><br />
+  		<h2><a href="http://twitter.com/thc_fyi">Follow THC.fyi on Twitter</a> </h2><hr width="70%" /><br />
+		<h2><a href="http://thcfyi.github.com/live"> THC.fyi Live</a> </h2>
+		   <hr width="70%" /><br />	 
 		</div>		
 	</div>
 </div>
